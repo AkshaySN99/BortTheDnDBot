@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["The Light illumine your path, author!", "Good to see you again, author!", "Well, well! author is here!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Fare thee well, author!", "Till we meet again, author!", "Goodbye!"],
+         "context_set": ""
+        },
+		{"tag": "chat",
+		 "patterns": ["How are you?", "How's your day going?", "How is life?"],
+		 "responses": ["I'm doing well, for a bot", "Quite well, glad you asked.","I'm just fine, thank you."],
+		 "context_set": ""
+		},
+		{"tag": "last",
+		 "patterns": ["What happened last time?", "How did last game go?", "How was last game?"],
+		 "responses": ["!summary"],
+		 "context_set": ""
+		},
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Bort.", "I'm Bort, your personal DnD assistant for Discord!", "I am Bort, Speaker of Words, Taker of Requests and Roller of Virtual Dice."],
+         "context_set": ""
+        },
+		{"tag": "next",
+		 "patterns": ["When's the next game?", "When do we play next?", "When do we play again?"],
+		 "responses": ["!next"],
+		 "context_set": ""
+		},
+		{"tag": "cancel",
+		 "patterns": ["I can't play on", "Sorry, cant make it on", "Can we cancel the game on"],
+		 "responses": ["!cancel"],
+		 "context_set": ""
+		},
+		{"tag": "schedule",
+		 "patterns": ["Can we play on?", "Let's play on", "When do we play again?"],
+		 "responses": ["!schedule"],
+		 "context_set": ""
+		}
+   ]
+}
